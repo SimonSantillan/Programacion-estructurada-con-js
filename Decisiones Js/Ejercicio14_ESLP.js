@@ -1,0 +1,1 @@
+/* Leer dos numeros enteros de dos dígitos y determinar a cuanto es igual la suma de todos los dígitos */

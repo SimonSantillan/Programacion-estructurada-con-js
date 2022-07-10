@@ -2,85 +2,81 @@
 
 function primoYnegativo(num) {
     console.log(num)
-    let negativo = false;
+    /* let negativo = false;
     if (num < 0) {
         num *= (-1);
         negativo = true;
-    }
-    if (num > 9 && num < 100) {
-        if (negativo) {
-            switch (num) {
-                case 11:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 13:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 17:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 19:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 23:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 29:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 31:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 37:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 41:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 43:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 47:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 53:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 59:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 61:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 67:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 71:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 73:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 79:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 83:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 89:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                case 97:
-                    console.log("El número ingresado es primo y negativo");
-                    break;
-                default:
-                    console.log("El número ingresado no es primo y negativo")
-            }
-        } else {
-            console.log("El número ingresado tiene 2 dígitos pero es positivo")
+    } */
+    if (num > -100 && num < -9) {
+        switch (num) {
+            case -11:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -13:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -17:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -19:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -23:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -29:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -31:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -37:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -41:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -43:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -47:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -53:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -59:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -61:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -67:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -71:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -73:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -79:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -83:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -89:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            case -97:
+                console.log("El número ingresado es primo y negativo");
+                break;
+            default:
+                console.log("El número ingresado no es primo pero si negativo");
         }
     } else {
-        console.log("El número ingresado no tiene 2 dígitos")
+        console.log("El número ingresado no tiene 2 dígitos o no es primo o negativo");
     }
 }
 console.log("");
