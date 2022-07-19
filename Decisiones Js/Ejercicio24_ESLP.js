@@ -4,7 +4,7 @@ function cuanDigitoPar(num) {
     if (cociente < 0) {
         cociente *= (-1);
     }
-    if (cociente > 10 && cociente < 99) {
+    if (cociente >= 10 && cociente <= 99) {
         let digito1, digito2, digito3;
         digito1 = Math.trunc(num/100);
         digito2 = Math.trunc((num % 100) / 10);

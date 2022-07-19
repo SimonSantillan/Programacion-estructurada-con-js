@@ -5,7 +5,7 @@ function sumaDigitos(num) {
     if (cociente < 0) {
         cociente *= (-1);
     }
-    if (cociente > 100 && cociente < 999) {
+    if (cociente >= 100 && cociente <= 999) {
         let digito1, digito2, digito3, digito4;
         digito1 = Math.trunc(num/1000);
         digito2 = Math.trunc((num % 1000)/100);
