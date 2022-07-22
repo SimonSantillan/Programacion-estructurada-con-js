@@ -13,12 +13,12 @@ function cualEsMultiplo(num1, num2) {
 }
 
 console.log("");
-cualEsMultiplo(23, 21);
-cualEsMultiplo(7, 21);
-cualEsMultiplo(21, 7);
-cualEsMultiplo(32, 4);
-cualEsMultiplo(4, 2);
-cualEsMultiplo(2, 4);
-cualEsMultiplo(2, 5);
-cualEsMultiplo(5, 5);
-cualEsMultiplo(4, 4);
+cualEsMultiplo(23,21);
+cualEsMultiplo(7,21);
+cualEsMultiplo(21,7);
+cualEsMultiplo(32,4);
+cualEsMultiplo(4,2);
+cualEsMultiplo(2,4);
+cualEsMultiplo(2,5);
+cualEsMultiplo(5,5);
+cualEsMultiplo(4,4);
